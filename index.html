@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title>DS Redesign</title>
+
+<!-- A link to the external style sheet would usually go here but we’ll address this later.
+For this assignment we’re just working on the structure -->
+
+<!--enable HTML5 elements in IE7+IE8 -->
+<!-- [if lt IE 9]>
+
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js></script>
+<![endif]-->
+</head>
+
+<!-- The heart of the code for you site - the stuff that appears in the -->
+<!-- browser will go in the body section -->
+<body>
+
+
+
+
+<header role="banner">
+
+<img src="images/logoTBA.png" alt="DS Redesign logo" />
+
+<!-- Enter the text what will go in your top banner -->
+
+<p>University of Colorado Boulder</p> <!-- Should this be a header; you decide -->
+</header>
+<nav role="navigation">
+<ul> <!-- navigation is usually coded as an unordered list -->
+<!--DO NOT simply enter “menu item 1”, etc. Enter the text for the menu items you plan
+to include on your redesigned page!! -->
+
+<li>Home</li>
+<li>About Us</li>
+<li>Accommodations</li>
+<li>Resources</li>
+<li>Contact Us</li>
+</ul>
+<!-- continue as needed depending on the number of menu items -->
+</nav>
+<div role="search">
+<!-- note: until we create the search.php file, we'll get an error when we submit a search
+-->
+<form action="search.php" method="post" id="searchinput">
+<label for="search">Search:</label>
+<input id="search" type="text" name="searchfield" />
+<input type="submit" value="submit" />
+</form>
+</div> <!-- end search div -->
+<div role="main">
+<!-- enter the text or a summary of the text that will go in the main content -->
+<h1>Center for Disability and Access</h1>
+<p>The Center for Disability and Access is dedicated to fostering an inclusive environment by providing comprehensive support services that ensure accommodations, accessibility, and equitable access for students, staff, faculty, and visitors throughout the CU community.</p>
+</div> <!-- end main content div -->
+<footer>
+<h2>Center for Disability and Access</h2>
+<img src="images/footerimageTBA.png" alt="Footer image TBA" />
+<p>107 UCB, Boulder, CO</p>
+</footer>
+</body>
+</html>
